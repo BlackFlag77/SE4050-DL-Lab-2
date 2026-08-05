@@ -1,0 +1,17 @@
+DL Labsheet 2 - Task 2 Answers:
+
+Student Name: S.M.D.M. Bandara
+ID number   : IT22141842
+
+Question 1: What happens when the number of hidden nodes increase?
+
+As the number of hidden nodes increases, the neural network gains a greater ability to learn complex patterns in the dataset. 
+The accuracy improved significantly when the hidden layer size increased from 1-2 nodes to 3-5 nodes. 
+However, further increasing the number of hidden nodes beyond 5 did not improve performance and slightly reduced accuracy.
+
+Question 2: Can you explain the pattern of the accuracy when the hidden nodes increase?
+
+When the network contains only 1 or 2 hidden nodes, it does not have enough capacity to model the complex flower-shaped decision boundary, resulting in underfitting and low accuracy. 
+Increasing the hidden nodes to 3-5 gives the network sufficient learning capacity, causing a large increase in accuracy. 
+However, using 20 or 50 hidden nodes does not further improve performance because the problem is relatively simple and additional neurons do not provide useful information. 
+The slight decrease in accuracy may be caused by overfitting or optimization difficulties.
